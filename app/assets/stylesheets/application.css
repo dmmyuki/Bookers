@@ -19,8 +19,27 @@
   box-sizing:border-box;
 }
 
-#notice {
-  color:green;
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin:33px;
+  color:#333;
+  font-size:13px;
+  line-height:18px;
+}
+
+.top {
+  margin:33px;
+}
+
+p,ul {
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+
+.form {
+  margin:15px 0;
 }
 
 th {
@@ -33,7 +52,7 @@ td {
   padding-right:5px;
 }
 
-.field {
+.field, .action {
   margin-bottom:10px;
 }
 
@@ -41,6 +60,26 @@ label {
   display:block;
 }
 
-action {
-  margin-bottom:10px;
+#notice {
+  color:green;
+}
+
+#error_explanation {
+  width:450px;
+  border:2px solid red;
+  padding:7px;
+  padding-bottom:0;
+  margin-bottom:20px;
+  background-color:#f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align:left;
+  font-weight:bold;
+  padding:5px 5px 5px 15px;
+  font-size:12px;
+  margin:-7px;
+  margin-bottom:0;
+  background-color:#c00;
+  color:#fff;
 }
